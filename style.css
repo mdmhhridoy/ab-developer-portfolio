@@ -1,0 +1,27 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    font-size: 50px;
+}
+.color-orange{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-weight{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-weight img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    color: bisque;
+    font-weight: 700;
+    background-image: linear-gradient(salmon, tomato) ;
+    padding:10px 40px;
+    border-radius: 5px;
+}
