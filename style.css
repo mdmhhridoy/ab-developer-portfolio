@@ -8,7 +8,7 @@ h1{
 .color-orange{
     color: orange;
 }
-section{
+.flaxiable-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -23,7 +23,7 @@ section{
     text-decoration: none;
     color: bisque;
     font-weight: 700;
-    background-image: linear-gradient(salmon, tomato) ;
+    background-image: linear-gradient(green, red, green); ;
     padding:10px 40px;
     border-radius: 5px;
 }
@@ -40,4 +40,29 @@ section{
 }
 .paragraf{
     padding-right: 60px;
+}
+.experince-area{
+    background-image: url(images//exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expeance-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+    
+}
+footer p{
+    text-align: center;
+    background-image: linear-gradient(green, red, green);
+    color: antiquewhite;
 }
